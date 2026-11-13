@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestaurantApplication>
+    <Users>
+        <User>
+            <UserName>alice1</UserName>
+            <FirstName>Alice</FirstName>
+            <LastName>Smith</LastName>
+            [email protected]
+            <PhoneNumber>2061111111</PhoneNumber>
+        </User>
+        <User>
+            <UserName>bob1</UserName>
+            <FirstName>Bob</FirstName>
+            <LastName>Johnson</LastName>
+            [email protected]
+            <PhoneNumber>2062222222</PhoneNumber>
+        </User>
+    </Users>
+    <Companies>
+        <Company>
+            <CompanyName>Seattle Eats</CompanyName>
+            <About>Restaurant management company</About>
+        </Company>
+        <Company>
+            <CompanyName>Northwest Dining</CompanyName>
+            <About>Regional restaurant operator</About>
+        </Company>
+    </Companies>
+    <Restaurants>
+        <Restaurant>
+            <RestaurantId>1</RestaurantId>
+            <CompanyName>Seattle Eats</CompanyName>
+            <Name>Amani Grill</Name>
+            <CuisineType>African</CuisineType>
+            <Description>
+                Authentic African cuisine
+            </Description>
+        </Restaurant>
+        <Restaurant>
+            <RestaurantId>2</RestaurantId>
+            <CompanyName>Seattle Eats</CompanyName>
+            <Name>Classic Burger</Name>
+            <CuisineType>American</CuisineType>
+            <Description>
+                American comfort food
+            </Description>
+        </Restaurant>
+        <Restaurant>
+            <RestaurantId>3</RestaurantId>
+            <CompanyName>Northwest Dining</CompanyName>
+            <Name>Tokyo Bowl</Name>
+            <CuisineType>Asian</CuisineType>
+            <Description>
+                Quick Asian meals
+            </Description>
+        </Restaurant>
+        <Restaurant>
+            <RestaurantId>4</RestaurantId>
+            <CompanyName>Northwest Dining</CompanyName>
+            <Name>Roma Kitchen</Name>
+            <CuisineType>European</CuisineType>
+            <Description>
+                Traditional European dishes
+            </Description>
+        </Restaurant>
+        <Restaurant>
+            <RestaurantId>5</RestaurantId>
+            <CompanyName>Seattle Eats</CompanyName>
+            <Name>Taco Express</Name>
+            <CuisineType>Hispanic</CuisineType>
+            <Description>
+                Fresh Hispanic food
+            </Description>
+        </Restaurant>
+    </Restaurants>
+    <Reviews>
+        <Review>
+            <ReviewId>1</ReviewId>
+            <UserName>alice1</UserName>
+            <RestaurantId>1</RestaurantId>
+            <Rating>4.5</Rating>
+            <WrittenReview>
+                Great food and friendly service.
+            </WrittenReview>
+        </Review>
+        <Review>
+            <ReviewId>2</ReviewId>
+            <UserName>bob1</UserName>
+            <RestaurantId>3</RestaurantId>
+            <Rating>5.0</Rating>
+            <WrittenReview>
+                Fast service and excellent quality.
+            </WrittenReview>
+        </Review>
+    </Reviews>
+<Recommendations>
+    <Recommendation>
+        <RecommendationId>1</RecommendationId>
+        <UserName>alice1</UserName>
+        <RestaurantId>3</RestaurantId>
+        <IsRecommended>true</IsRecommended>
+    </Recommendation>
+</Recommendations>
+</RestaurantApplication>
